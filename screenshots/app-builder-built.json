@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Nova Church",
+      "hasCanvas": false,
+      "bodyTextLen": 2738,
+      "bodyTextHash": "a8bc3a81cf629bd9fc2cb0640458f93040489b1eef7d7dcb9cb1eb856bc6ad36",
+      "bodyTextPrefix": "Nova Sign in Join us LAUNCH SUNDAY · 6 SEPTEMBER 2026 Fancy a fr",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Nova Church",
+      "hasCanvas": false,
+      "bodyTextLen": 2738,
+      "bodyTextHash": "a8bc3a81cf629bd9fc2cb0640458f93040489b1eef7d7dcb9cb1eb856bc6ad36",
+      "bodyTextPrefix": "Nova Sign in Join us LAUNCH SUNDAY · 6 SEPTEMBER 2026 Fancy a fr",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

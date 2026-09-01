@@ -1,0 +1,37 @@
+import { r as createServerFn } from "./ssr.mjs";
+import { t as authMiddleware } from "./middleware-CNBTcWLb.mjs";
+import { r as createSsrRpc } from "./router-05Y12lSN.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/api-CxaXKXSv.js
+createServerFn({ method: "GET" }).handler(createSsrRpc("553eafda76b5ea44aa72c56c99dc471d3e761419406c0a9cf6483534cb516294"));
+var getHome = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("d9745863713109022ab5bd50494b7657f4fd97376472a533ce3cf2c114d2834e"));
+var getMe = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("95b4bc422b50138809a1f4d9a6e8d0a64d46249de6d02fc112b2e01caadf8be6"));
+var updateProfile = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("696d2649221b543f7750ea058e3751a270d980f5b4862ca5e34d433b681f3cdf"));
+var listPeople = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("3ec23f7dc8f855d13d257fa11d5972ebe50a5eafbbe383caca669764d869dde3"));
+var listEvents = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("b4f4cfacb1d52ffd89458eb2b69176bd901a85fe1725135bf1dc66b58d5dfdd2"));
+var getEvent = createServerFn({ method: "GET" }).middleware([authMiddleware]).validator((id) => id).handler(createSsrRpc("043cf8a7dc0d10d564caa020782a66718ee4ec2f140751bf081e94f6ed35e820"));
+var rsvpEvent = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("026e1860827dbb6706168f425503f359c565652a741227e5a83c481cdcdec4d4"));
+var cancelRsvp = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((eventId) => eventId).handler(createSsrRpc("c8e1f7da6b5897d78eadd1f419f24b496d3fbd2b912ec18a5dea1113e47c09bf"));
+var createEvent = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("522a67b10349f18fc1a25c7f1e27617e4735e56579f579ff06adba49db546162"));
+var listNews = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("2929b1bdf0dca78915e44143a9a12e71b2a69881dc937b4adf5fd46f4a508eb7"));
+var postNews = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("5f95f4aa5a87d19af555ebd5ee0bf08ee912c7bf845f3c89b2e4216b9282b713"));
+var listSermons = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("09b4d149db7dcf3341e2f0e3d43f3452a2ca39e8827a168f5ed0df9d65e276ee"));
+var listTeams = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("b57564feaf0a857fa7e685038c79683a3616e0ee849f1ae80a3bfc0be2533d59"));
+var joinTeam = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((teamId) => teamId).handler(createSsrRpc("090df1b09368125453b0f42e3bf8d33b17dea366d843b0215c175f306b9320a6"));
+var setAvailability = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("1601a6b014abf83873163e636426440f534f57813254e032c45476b3aca582b6"));
+var listAvailability = createServerFn({ method: "GET" }).middleware([authMiddleware]).validator((teamId) => teamId).handler(createSsrRpc("e3452effda8d256020da2d3467a3450c5e7c0f31eab07172b12f40a1c17670f7"));
+var listGroups = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("2f9d9671d7222a3cb440c09673d5017274d5331d32eb5393a52bf4c0e3e3bd3b"));
+var joinGroup = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((groupId) => groupId).handler(createSsrRpc("41574125875090f04501b6bcda25218dec9f03e6c504d34d819b166ca5ccf22b"));
+var listChannels = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("6a554b1185d1942487042ec022dc5bbedf1f356a0c5b0ec1e134f43d505167a0"));
+var listMessages = createServerFn({ method: "GET" }).middleware([authMiddleware]).validator((channelId) => channelId).handler(createSsrRpc("93b51dac5773ebaaeb24f0037466a05e177de4fa94ccb4c6f39ab057ee8548a8"));
+var sendMessage = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("28dd6ef0b7e82b07b8529b72dd87a6265134dcf23eda88242562abaf7a2f73b0"));
+var listResources = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("064b32bda14c6c8a80e83812be4bb6a505ce119c344c4e92cd5000e346589959"));
+var give = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("9d3d1c6678328b4505591f07d55bc3efb2c08d0e723baef49cacaad7ab75dae7"));
+var myGiving = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("174334a48df6b8af8a11a5e7e36bfae49d823db8ec5c7232a7f50c29c29492be"));
+var listChildren = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("0de621dc6ac93fc77e783e5a39fb6e210be3c06aaddb5e8ddb0ee82561a46e9d"));
+var registerChild = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("cd3faf60e8e7de684bebba1ce68f0fa413f4c8f71c5f588c040cd92ad62c7e3a"));
+var checkInChild = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("af52b47094dab801d9640bd9ba199cedc5536b1cada7bb410274f38646cdc46a"));
+var checkOutChild = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("efbdc3f5e9dfb896af624d44628efc0c3add512c076eceb6eb0819f221aa7a47"));
+var todayCheckins = createServerFn({ method: "GET" }).middleware([authMiddleware]).handler(createSsrRpc("624f0a53b6d7bba6ea5b60690faa15c7a6f0fb204c1d882c01dbeb983174555b"));
+var scanCheckIn = createServerFn({ method: "POST" }).middleware([authMiddleware]).validator((d) => d).handler(createSsrRpc("31469da40c6d60df109be4e3917e0971b48b70086d1c416b032c8b74e0fcc2bc"));
+//#endregion
+export { updateProfile as A, postNews as C, sendMessage as D, scanCheckIn as E, setAvailability as O, myGiving as S, rsvpEvent as T, listNews as _, getEvent as a, listSermons as b, give as c, listAvailability as d, listChannels as f, listMessages as g, listGroups as h, createEvent as i, todayCheckins as k, joinGroup as l, listEvents as m, checkInChild as n, getHome as o, listChildren as p, checkOutChild as r, getMe as s, cancelRsvp as t, joinTeam as u, listPeople as v, registerChild as w, listTeams as x, listResources as y };
